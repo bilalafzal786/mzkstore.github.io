@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+* {
+  
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+}
+
+#uperNav{
+  color: #fff!important;
+  width: 100%!important;
+  height: 15vh!important;
+  
+  background-color: #1D1E23!important;
+  
+}
+.nav-item a{
+  color: #fff!important;
+}
+.nav-item a:hover{
+  color: #D11B21 !important;
+
+}
+ .conts a{
+  font-size: 0.8rem!important;
+}
+#LowerNav{
+  color: #fff!important;
+  border-top: 2px solid #121215;
+  background: #1D1E23;
+}
+#LowerNav .nav-item a{
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+#basic-addon1{
+  border: none!important;
+  background: #1D1E23;
+
+}
+#searchBox{
+  border:none!important;
+  border-radius: 20px;
+  width: 100px!important;
+  background: #1D1E23;
+
+}
+#col-1{
+  background-color:#D11B21!important;
+
+}
+#col-1 a{
+  background-color:#D11B21!important;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: 0;
+  padding-bottom: 10px;
+
+}
+#col-1 img{
+  background-color:#D11B21!important;
+
+}
+a{
+  text-decoration: none;
+}
+#para a{
+  font-size:0.9rem;
+  text-decoration: none;
+}
+#para{
+  border-bottom: 1px solid #41434E;
+}
+#cat #para{
+  background: #1D1E23;
+  
+}
+#cat a{
+  color: #fff!important;
+  
+}
+#header{
+  background:#121215;
+}
+.border{
+  border: 1px solid #C2C2C2;
+opacity: 1;
+}
+#header-img #cat{
+  width: 100%;
+  height: inherit;
+}
+@media (min-width:1800px ){
+  #para{
+    padding: 11px!important;
+  }
+}
+#offer{
+  background: #1D1E23!important;
+  color: white;
+}
+#tutorial-col{
+  color: white;
+}
+#tutorial{
+  background: #19181D;
+
+}
+#tutorial-img{
+  width: 100%;
+  height: 77vh;
+
+}
+#tutorial-inner-row{
+margin: auto;
+  align-content: center;
+}
+#dimText{
+  color: #26272D!important;
+  text-align: left!important;
+  font-size: 8vw;
+ 
+  font-weight: 1000;
+}
+.heading{
+  color: #D11B21;
+}
+#blog{
+  background: #1D1E23!important;
+}
+#red-text{
+  color: #D11B21;
+
+}
+#paragraphBlog{
+  font-size: 0.6rem;
+}
+.btn-danger{
+  background:#D11B21!important;
+  border: 1px solid #D11B21!important;
+  border-radius: 0px !important;
+  
+}
+.large-para{
+  font-size: 0.8rem;
+}
+#footer{
+  background: #1D1E23!important;
+  color: #fff;
+  
+}
+#logo-img{
+  width: 200px;
+  
+}
+.footerPara p{
+color: #C2C2C2;
+}
+#lowerFooter{
+  background:#121215;
+  color: #FFFFFF;
+  text-align: center;
+}
+#hideText{
+  display: flex;
+  
+}
+@media (max-width:700px){
+  #hideText a{
+          display: none;
+  }
+}
+#brand{
+  width: 100%;
+}
+.upernav-row{
+  display: flex;
+  flex-direction: row;
+}
+#upperNav{
+  display: flex;
+  align-items: center;
+}
